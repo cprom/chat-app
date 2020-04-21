@@ -1,3 +1,33 @@
+# PrivateChat
+
+A React JS app for private chat and post between two people or a group.
+Invitation and account setup is made either through registering an account or an email link invitation send through the app to a recipient. 
+
+
+## Example.  
+* Person A register’s an account to the page and logs in.  
+
+* The choices they will have is create a chat room.  They will provide the name of the chat room and invite people to the chat.  First phase will have the invite to a chat room being made through an email link and at a later point we will create a search to allow them to add people to a chatroom from list of all users in the PrivateChat group.
+
+* Request received through email with initial invite token and initial invite account.  Person clicks on it and they will arrive at an initial screen to create and update their invite account.  When they update it they are notified account in logged in and they can click on the login button from the navbar on top. 
+
+* Initial login.  They see the chat room they are invited to and the post and comments made.
+
+* All theses chatrooms are invites only.
+
+* For now the private chatrooms are for a small group and content and features later added would only be known between the small group.
+When members are added to the private chat all team members will receive a notification marked to icon indicating new members invited so at any time all members know who is on the private chat.
+
+## Technologies:
+
+Node.js, Reactjs, Mongoose, Mongo db,  mysql, Serializer, passport, nodemailer and material ui.
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
